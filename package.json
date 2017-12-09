@@ -1,7 +1,7 @@
 {
   "name": "pimlr",
   "version": "1.0.0",
-  "description": "Friend App",
+  "description": "Dating App",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,15 +10,10 @@
     "type": "git",
     "url": "git+https://github.com/ACMBuckeyes89/PIMLR.git"
   },
-  "author": "Team Always Undecided",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ACMBuckeyes89/PIMLR/issues"
   },
-  "homepage": "https://github.com/ACMBuckeyes89/PIMLR#readme",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "simple-oauth2": "^1.4.0"
-  }
+  "homepage": "https://github.com/ACMBuckeyes89/PIMLR#readme"
 }
