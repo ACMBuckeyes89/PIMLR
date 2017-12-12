@@ -1,0 +1,87 @@
+body{
+	background: url("../images/dj.jpg");
+	background-size:100% 710px;
+	padding-top:20px;
+	
+}
+
+h2{
+	margin-bottom: 5px;	
+}
+
+#nav{
+	color:white;
+	padding-top:10px;
+	padding-bottom: -30px;
+	padding-left:30px;
+	font-size:20px;
+	margin:auto;
+	background:gray;
+	width:500px;
+	border-radius:10px;
+	opacity:.8;	
+	text-align: center;
+	transition: 1s;
+}
+#nav input{
+	 margin-top:30px;
+	 width:200px;
+	 height:40px;
+	font-size:20px;
+	border-radius:5px;
+
+}
+
+#nav input[name="email"]{
+	width:410px;
+	margin-top: 5px;
+}
+#nav input[name="gender"]{
+	margin-top:-30px;
+	width:20px;
+	font-size: 12px;
+}
+#nav input[type="checkbox"]{
+	margin-top:15px;
+	width:25px;
+	font-size: 5px;
+}
+#nav input[type="submit"]{
+	margin:10px;
+	width:150px;
+	border-radius:50px;
+	margin-left:280px;
+	height:50px;
+	background:blue;
+	color:white;
+	font-weight:bold;
+}
+#nav input[type="submit"]:hover{
+	 
+	background:white;
+	color:blue;
+	 
+}
+
+.icon{
+	padding-top: -10px;
+	padding-bottom: 15px;
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+
+.cityBar{
+	width: 205px;
+	height: 45px;
+	font-size: 18px;
+}
+
+.agreement{
+	font-size: 10px;
+	font-weight:;
+}
+
+#nav:hover{
+	background: rgba(0,0,0,0.7);
+}
