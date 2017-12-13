@@ -5,7 +5,7 @@
 
 var express = require("express");
 var bodyParser = require("body-parser");
-
+var passport = require("./config/passport");
 // ==============================================================================
 // EXPRESS CONFIGURATION
 // This sets up the basic properties for our express server
@@ -30,6 +30,7 @@ app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 app.use(express.static("public"));
+app.use(passport.initialize());
 
 
 require("./routes/html-routes")(app);
