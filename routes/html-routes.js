@@ -5,7 +5,7 @@
 // Dependencies
 // =============================================================
 var path = require("path");
-
+var passport = require("../config/passport");
 // Routes
 // =============================================================
 module.exports = function(app) {
@@ -23,6 +23,20 @@ module.exports = function(app) {
 
   app.get("/signup", function(req, res) {
     res.sendFile(path.join(__dirname, "../public/signup.html"));
+  });
+
+  app.get("/forum", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/forum.html"));
+  });
+
+  app.get('/localhost',
+  passport.authenticate('facebook'));
+ 
+app.get('/auth/facebook/callback',
+  passport.authenticate('facebook', { failureRedirect: '/login' }),
+  function(req, res) {
+    // Successful authentication, redirect home. 
+    res.redirect('/forum');
   });
 
 };
