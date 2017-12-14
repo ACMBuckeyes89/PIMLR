@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/ACMBuckeyes89/PIMLR/issues"
   },
+<<<<<<< HEAD
   "homepage": "https://github.com/ACMBuckeyes89/PIMLR#readme"
+=======
+  "homepage": "https://github.com/ACMBuckeyes89/PIMLR#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1",
+    "path": "^0.12.7"
+  }
+>>>>>>> daf39be38ac7fa919579addf53915c82982a1b98
 }
