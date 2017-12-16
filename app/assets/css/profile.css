@@ -1,0 +1,39 @@
+/*CSS styling for the blog post section*/
+.user {
+	position: relative;
+	left: 200px;
+} 
+
+.message {
+	height: 100px;
+	width: 300px;
+	position: relative;
+	left: 90px;
+}
+
+/*CSS styling for the profile section*/
+.profile {
+	position: relative;
+	right: 70px;
+	top: 135px;
+}
+
+/*CSS styling for the thumbnail section*/
+.thumbnail {
+	position: relative;
+	left: 900px;
+	bottom: 400px; 
+}
+
+.ads {
+	position: relative;
+	left: 900px;
+	bottom: 390px;
+}
+
+/*CSS styling for PIMLR*/
+#pimlr {
+	position: relative;
+	right: 600px;
+	color: white;
+}
